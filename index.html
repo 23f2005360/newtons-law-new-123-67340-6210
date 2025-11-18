@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Top 10 Places</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+<h1>Top 10 Places to Visit</h1>
+</header>
+<main>
+<section id="places-section">
+<div class="places-list" id="places-list">
+<!-- List of places will be dynamically populated here -->
+</div>
+</section>
+<section id="add-place-section">
+<h2>Add a New Place</h2>
+<form id="add-place-form">
+<label for="place-name">Name:</label>
+<input type="text" id="place-name" name="place-name" placeholder="Enter place name" required />
+<br />
+<label for="place-description">Description:</label>
+<textarea id="place-description" name="place-description" placeholder="Enter description" required></textarea>
+<br />
+<label for="place-image">Image URL:</label>
+<input type="url" id="place-image" name="place-image" placeholder="Enter Image URL" required />
+<br />
+<button type="submit" id="add-place-btn">Add Place</button>
+</form>
+</section>
+</main>
+<footer>
+<p>Top 10 Places Application &copy; 2023</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
